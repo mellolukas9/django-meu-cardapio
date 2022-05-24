@@ -57,7 +57,7 @@ ROOT_URLCONF = 'receita.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'recitas/templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'receitas/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
